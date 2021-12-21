@@ -60,7 +60,7 @@
  )
  ```
  Completely replace all environment variables with the provided set in `replace`.
- `push_changes` is for internal use only; changes will not be applied immediately when set to `False`, until env_context.EnvironmentContext().__enter__() is called.
+ `push_changes` is for internal use only; changes will not be applied immediately when set to `False`, until `env_context.EnvironmentContext().__enter__()` is called.
 
  ## env_context.EnvironmentContext().update()
  ```
@@ -73,4 +73,4 @@
  )
  ```
  Updates environment variables with the provided set in `update`.
- `push_changes` is for internal use only; changes will not be applied immediately when set to `False`, until env_context.EnvironmentContext().__enter__() is called.
+ `push_changes` is for internal use only; changes will not be applied immediately when set to `False`, until `env_context.EnvironmentContext().__enter__()` is called.
